@@ -1,13 +1,21 @@
-import logo from './images/logo.png';
-// import bannerImg from './images/banner.png';
-import projectOne from './images/projects/project-01.jpg';
-// import projectTwo from './images/projects/project-02.jpg';
-import projectThree from './images/projects/project-03.png';
+import logo from "./images/logo.png";
+import bannerImg from "./images/bannerImg.png";
+import projectOne from "./images/projects/projectOne.jpg";
+import projectTwo from "./images/projects/projectTwo.jpg";
+import projectThree from "./images/projects/projectThree.jpeg";
+import testimonialOne from "./images/testmonial/testimonialOne.png";
+import testimonialTwo from "./images/testmonial/testimonialTwo.png";
+import quote from "./images/testmonial/quote.png";
+import contactImg from "./images/contact/contactImg.png";
 
 export {
-    logo,
-    // bannerImg,
-    projectOne,
-    // projectTwo,
-    projectThree
+  logo,
+  bannerImg,
+  projectOne,
+  projectTwo,
+  projectThree,
+  testimonialOne,
+  testimonialTwo,
+  quote,
+  contactImg,
 };
