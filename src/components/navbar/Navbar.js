@@ -5,9 +5,9 @@ import { navLinksdata } from '../constants/index';
 
 const Navbar = () => {
   return (
-    <div className='w-full h-20 mx-auto flex justify-between items-center font-titleFont border-b-[1px]'>
+    <div className='w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600'>
       <div>
-        <img src={logo} alt='logo' />
+        <img src={logo} alt='logo' style={{ width: '200px', height: 'auto' }} />
       </div>
       <div>
         <ul className='flex items-center gap-10'>
