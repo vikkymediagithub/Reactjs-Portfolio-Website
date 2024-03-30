@@ -14,7 +14,7 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-5xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Victor Joseph</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
@@ -26,7 +26,7 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        I'm proficient in popular frontend frameworks like React and Nextjs, which I use to build interactive and scalable web applications. I'm also well-versed in using frontend libraries like Bootstrap, Tailwindcss and Material-UI to ensure that the user interface is both aesthetically pleasing and responsive.
+        I'm proficient in popular frontend framework like Reactjs, which I use to build interactive and scalable web applications. I'm also well-versed in using frontend libraries like Bootstrap, Tailwindcss and Material-UI to ensure that the user interface is both aesthetically pleasing and responsive.
         </p>
       </div>
      {/* Media */}
