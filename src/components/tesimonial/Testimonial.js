@@ -108,9 +108,9 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Oya State - Ibadan
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">Ayomide Badmus</h3>
                   <p className="text-base tracking-wide text-gray-500">
                     Operation Officer
                   </p>
@@ -122,10 +122,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        E-commerce Website.
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Mar 4, 2023 - Aug 30, 2023 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -137,7 +137,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
+                  The e-commerce platform they built for us not only met our functional requirements but also exceeded our design expectations. The user interface is intuitive, visually appealing, and optimized for seamless navigation, providing our customers with an exceptional shopping experience.
                   </p>
                 </div>
               </div>
@@ -155,11 +155,11 @@ const Testimonial = () => {
                 />
                 <div className="w-full flex flex-col justify-end">
                   <p className="text-xs uppercase text-designColor tracking-wide mb-2">
-                    Bound - Trolola
+                    Usa - Colorado 
                   </p>
-                  <h3 className="text-2xl font-bold">Jone Duone Joe</h3>
+                  <h3 className="text-2xl font-bold">James Chris</h3>
                   <p className="text-base tracking-wide text-gray-500">
-                    Operation Officer
+                    Content Writer
                   </p>
                 </div>
               </div>
@@ -169,10 +169,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        Gaming Website
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                        via Upwork - Sept 4, 2023 - Mar 28, 2024 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -184,7 +184,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
+                  We are thrilled with the gaming website developed by VIKKYMEDIA TECHNOLOGIES. From concept to execution, the team demonstrated a deep understanding of our vision and delivered a product that exceeded our expectations.
                   </p>
                 </div>
               </div>
@@ -192,7 +192,7 @@ const Testimonial = () => {
           </div>
           {/* ================ Slider Three ================== */}
 
-          <div className="w-full">
+          {/* <div className="w-full">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
               <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
                 <img
@@ -216,10 +216,10 @@ const Testimonial = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        Travel Mobile App Design.
+                        E-commerce website
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
-                        via Upwork - Mar 4, 2015 - Aug 30, 2021 test
+                      via Upwork - Mar 4, 2023 - Aug 30, 2023 test
                       </p>
                     </div>
                     <div className="text-yellow-500 flex gap-1">
@@ -231,12 +231,12 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
+                  The e-commerce platform they built for us not only met our functional requirements but also exceeded our design expectations. The user interface is intuitive, visually appealing, and optimized for seamless navigation, providing our customers with an exceptional shopping experience.
                   </p>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </Slider>
       </div>
     </section>
