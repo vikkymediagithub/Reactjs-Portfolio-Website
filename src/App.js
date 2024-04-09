@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
+import Preloader from './components/preloader/Preloader';
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
 import Features from "./components/features/Features";
@@ -10,19 +11,36 @@ import Resume from "./components/resume/Resume";
 import Testimonial from "./components/tesimonial/Testimonial";
 
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulating a delay to demonstrate the preloader
+    const timeout = setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText px-4">
-        <Navbar />
-      <div className="max-w-screen-xl mx-auto">
-        <Banner />
-        <Features />
-        <Projects />
-        <Resume />
-        <Testimonial />
-        <Contact />
-        <Footer />
-        <FooterBottom />
-      </div>
+      {loading ? (
+        <Preloader />
+      ) : (
+        <div>
+          <Navbar />
+          <div className="max-w-screen-xl mx-auto">
+            <Banner />
+            <Features />
+            <Projects />
+            <Resume />
+            <Testimonial />
+            <Contact />
+            <Footer />
+            <FooterBottom />
+          </div>
+        </div>
+      )}
     </div>
   );
 }

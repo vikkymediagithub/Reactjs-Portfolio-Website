@@ -137,11 +137,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                    I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
                   </p>
                 </div>
               </div>
@@ -188,11 +184,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
                   </p>
                 </div>
               </div>
@@ -239,11 +231,7 @@ const Testimonial = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  I love working with vikkotech technologies, because they work deligently and they help client with all they could they can do with them. This is a company that i love to work with. I can recommand them to you all.
                   </p>
                 </div>
               </div>
