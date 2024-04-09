@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Scrollbar from "./components/scrollBar/Scrollbar";
 import Preloader from './components/preloader/Preloader';
 import Banner from "./components/banner/Banner";
 import Contact from "./components/contact/Contact";
@@ -38,6 +39,7 @@ function App() {
             <Contact />
             <Footer />
             <FooterBottom />
+            <Scrollbar />
           </div>
         </div>
       )}
