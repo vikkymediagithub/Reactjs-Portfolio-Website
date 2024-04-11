@@ -9,7 +9,8 @@ import { navLinksdata } from '../../constants';
 const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
-    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600" data-aos="fade-up" data-aos-anchor-placement="center-center">
+    <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600" data-aos="zoom-out-left" data-aos-anchor-placement="center-center" data-aos-easing="linear"
+    data-aos-duration="1500">
       <div>
         <img src={logo} alt="logo" style={{ width: '200px', height: 'auto' }} />
       </div>
@@ -42,13 +43,14 @@ const Navbar = () => {
         {showMenu && (
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-gray-900 p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
-              <div>
+              <div data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1500">
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Vikkymedia Technologies 
+                We specialize in designing and implementing  user interfaces and user experiences for websites and web applications.
                 </p>
               </div>
-              <ul className="flex flex-col gap-4">
+              <ul className="flex flex-col gap-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
@@ -68,7 +70,7 @@ const Navbar = () => {
                   </li>
                 ))}
               </ul>
-              <div className="flex flex-col gap-4">
+              <div className="flex flex-col gap-4" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
                 <h2 className="text-base uppercase font-titleFont mb-4">
                   Find me in
                 </h2>
@@ -87,7 +89,9 @@ const Navbar = () => {
               <span
                 onClick={() => setShowMenu(false)}
                 className="absolute top-4 right-4 text-gray-400 hover:text-designColor duration-300 text-2xl cursor-pointer"
-              >
+                data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
                 <MdClose />
               </span>
             </div>
