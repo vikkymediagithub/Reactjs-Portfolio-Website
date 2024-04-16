@@ -16,8 +16,8 @@ export const navLinksdata = [
   },
   {
     _id: 1004,
-    title: "Resume",
-    link: "resume",
+    title: "Work",
+    link: "work",
   },
   {
     _id: 1005,
