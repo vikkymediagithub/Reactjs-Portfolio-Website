@@ -14,7 +14,7 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5" data-aos="fade-down"
      data-aos-easing="linear" data-aos-duration="1500">
-        <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h4 className=" text-2xl font-bold">WELCOME TO MY WORLD 👋</h4>
         <h1 className="text-5xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Victor Joseph</span>
         </h1>
