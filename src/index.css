@@ -21,9 +21,22 @@
 }
 }
 
+/* Active */
 .active {
     color: white;
 }
+
+/* Scroll button */
 .scrollbar-hide::-webkit-scrollbar{
     display: none;
 }
+
+/* Divider */
+.divider {
+    height: 5px;
+    width: 3rem;
+    background: #ff014f;
+    border-radius: 5px;
+    margin: 15px auto;
+}
+
