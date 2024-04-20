@@ -45,7 +45,7 @@ const Navbar = () => {
               <div data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="1500">
                 <img className="w-32" src={logo} alt="logo" />
-                <p className="text-sm text-gray-400 mt-2">
+                <p className="text-sm text-gray-400 mt-5">
                 We specialize in designing and implementing  user interfaces and user experiences for websites and web applications.
                 </p>
               </div>

@@ -36,4 +36,4 @@ const LeftBanner = () => {
   );
 }
 
-export default LeftBanner
+export default LeftBanner;
