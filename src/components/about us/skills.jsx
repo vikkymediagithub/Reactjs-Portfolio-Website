@@ -10,7 +10,9 @@ const skills = [
     {id:9, title: 'BOOTSTRAP'},
     {id:10, title: 'RESPONSIVENESS'},
     {id:11, title: 'SEO'},
-    {id:12, title: 'TERMINAL'},
+    {id:12, title: 'FIGMA'},
+    {id:13, title: 'TERMINAL'},
+    {id:14, title: 'NETLIFY'},
 ] 
 
 export default skills;
