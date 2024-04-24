@@ -23,7 +23,7 @@ const AboutUs = ({ title, des }) => {
 
         {/* Right Side */}
         <div className='md:w-1/2 my-8'>
-          <h4 className='text-2xl font-bold mb-8 bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne text-white py-2 px-4 rounded'>My Skills</h4>
+          <h4 className='text-2xl font-bold mb-8 bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne text-white py-2 px-4 rounded uppercase'>My Skills</h4>
           <div className='flex flex-wrap gap-3 md:w-10/12'>
             {skills.map(skill => (
               <p key={skill.id} className='bg-gradient-to-r from-[#1e2024] to-[#202327] shadow-shadowOne text-white py-2 px-4 rounded'>{skill.title}</p>
