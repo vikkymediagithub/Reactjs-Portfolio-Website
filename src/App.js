@@ -7,7 +7,7 @@ import Footer from "./components/footer/Footer";
 import FooterBottom from "./components/footer/FooterBottom";
 import Navbar from "./components/navbar/Navbar";
 import About from "./components/about us/About";
-import Experience from './components/experience/Experience';
+// import Experience from './components/experience/Experience';
 import Projects from "./components/projects/Projects";
 import Testimonial from "./components/tesimonial/Testimonial";
 
@@ -33,7 +33,7 @@ function App() {
           <div className="max-w-screen-xl mx-auto">
             <Banner />
             <About />
-            <Experience />
+            {/* <Experience /> */}
             <Projects />
             <Testimonial />
             <Contact />
