@@ -1,14 +1,45 @@
-import React from 'react'
+import React, { useEffect, useRef, useState } from 'react';
+import './Preloader.css';
+import typingSoundFile from './type-sound.mp3';
 
+const Preloader = ({ onFinish }) => {
+  const [text, setText] = useState('');
+  const soundRef = useRef(null);
+  const fullText = 'VIKKYMEDIATECH';
 
-const Preloader = () => {
+  useEffect(() => {
+    let i = 0;
+
+    const typeNext = () => {
+      if (i < fullText.length) {
+        setText(prev => prev + fullText[i]);
+
+        if (soundRef.current) {
+          try {
+            soundRef.current.currentTime = 0;
+            soundRef.current.play();
+          } catch (err) {
+            console.warn('Sound blocked by browser:', err.message);
+          }
+        }
+
+        i++;
+        setTimeout(typeNext, 150);
+      } else {
+        setTimeout(() => onFinish(), 800);
+      }
+    };
+
+    const startTyping = setTimeout(typeNext, 500);
+    return () => clearTimeout(startTyping);
+  }, [onFinish]);
+
   return (
-    <div className="fixed top-0 left-0 z-50 h-screen w-screen bg-[#212428] flex items-center justify-center">
-      <div className="w-8 h-8 border-t-2 border-r-2 border-[#ff014f] rounded-full animate-spin">
-      <span className="sr-only">loading</span>
-      </div>
+    <div className="preloader-wrapper">
+      <h1 className="preloader-text">{text}<span className="preloader-cursor">|</span></h1>
+      <audio ref={soundRef} src={typingSoundFile} preload="auto" />
     </div>
   );
-}
+};
 
 export default Preloader;
